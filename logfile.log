@@ -1,0 +1,60 @@
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:25:51.569Z"}
+{"message":"connect ECONNREFUSED 127.0.0.1:27017","stack":"Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)","name":"MongoNetworkError","errorLabels":["TransientTransactionError"],"level":"error","timestamp":"2019-10-02T11:25:53.653Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:26:13.475Z"}
+{"message":"connect ECONNREFUSED 127.0.0.1:27017","stack":"Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)","name":"MongoNetworkError","errorLabels":["TransientTransactionError"],"level":"error","timestamp":"2019-10-02T11:26:15.554Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:34:58.215Z"}
+{"message":"database names cannot contain the character ' '","stack":"MongoError: database names cannot contain the character ' '\n    at Function.create (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\core\\error.js:44:12)\n    at validateDatabaseName (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\operations\\db_ops.js:557:24)\n    at new Db (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\db.js:190:3)\n    at MongoClient.db (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\mongo_client.js:275:14)\n    at C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongoose\\lib\\connection.js:638:62\n    at result (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:17)\n    at executeCallback (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:68:9)\n    at err (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\operations\\connect.js:193:7)\n    at connectCallback (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\operations\\connect.js:340:5)\n    at topology.connect (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\operations\\connect.js:472:7)\n    at Server.connectHandler (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:259:45)\n    at Object.onceWrapper (events.js:286:20)\n    at Server.emit (events.js:203:15)\n    at Pool.<anonymous> (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:470:12)\n    at Pool.emit (events.js:198:13)\n    at connect (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\mongodb\\lib\\core\\connection\\pool.js:624:10)","driver":true,"name":"MongoError","level":"error","timestamp":"2019-10-02T11:34:59.294Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:36:00.573Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:36:01.597Z"}
+{"message":"cb is not a function","stack":"TypeError: cb is not a function\n    at logDb.collection.insertOne.then.catch.err (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\winston-mongodb\\lib\\winston-mongodb.js:226:7)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2019-10-02T11:36:01.743Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:36:48.770Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:36:49.841Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:38:10.019Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:38:11.091Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:44:51.330Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:44:52.359Z"}
+{"message":"cb is not a function","stack":"TypeError: cb is not a function\n    at logDb.collection.insertOne.then.catch.err (C:\\Users\\HiQUser\\Desktop\\Västerås golfklubb\\node_modules\\winston-mongodb\\lib\\winston-mongodb.js:226:7)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2019-10-02T11:44:52.582Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:46:51.137Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:46:52.179Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:48:52.633Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:48:53.681Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:49:16.514Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:49:17.559Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:49:44.911Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:49:45.958Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:49:52.910Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:49:53.950Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:50:00.797Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:50:01.815Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:50:39.661Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:50:40.679Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:51:10.402Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:51:11.452Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:51:54.019Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:51:55.035Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:52:08.222Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:52:09.302Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:53:18.737Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:53:19.753Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T11:59:22.748Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T11:59:23.783Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:00:07.015Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:00:08.032Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:02:54.265Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:02:55.308Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:02:59.639Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:03:00.677Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:03:05.847Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:03:06.886Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:03:10.384Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:03:11.430Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:03:15.792Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:03:16.826Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:03:20.265Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:03:21.313Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:03:22.711Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:03:23.752Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:03:29.166Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:03:30.214Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-02T12:04:54.675Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-02T12:04:55.768Z"}

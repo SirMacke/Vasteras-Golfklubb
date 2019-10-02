@@ -1,0 +1,40 @@
+//output:index.html, pretty: true
+doctype html
+head
+  meta(charset='utf-8')
+  link(href='https://fonts.googleapis.com/css?family=Lato&display=swap' rel='stylesheet')
+  link(rel='stylesheet' type='text/css' href='./styles/index.min.css')
+  title V&auml;ster&aring;s Golfklubb
+body
+  nav#black-nav
+  nav#nav
+    img(src='./images/loga.png' alt='Västerås Golfklubb Loga')
+    div
+      a(href='./hem') Hem
+      a(href='./klubben') Klubben
+      a(href='./medlem') Medlem
+      a(href='./gast') G&auml;st
+      a(href='./banan') Banan
+      a(href='./tavlingar') T&auml;vlingar
+      a(href='./företag') F&ouml;retag
+      a(href='./shop') Shop
+      a(href='./restaurang') Restaurang
+  section#main
+    img(src='./images/västerås golfklubb1.jpg' alt='Västerås Golfklubb')
+    #namn
+      h1#vasteras Västerås
+      h1#golfklubb Golfklubb
+    #aktuellt
+      a.info(href='./gast/golfpaket')
+        img(src='./images/golfpaket.jpg' alt="Västerås golfklubb")
+        h3.text#top Boka
+        h2.text#bottom Golfpaket
+      a.info(href='./shop')
+        img(src='./images/shop1.jpg' alt='Västerås golfklubb shop')
+        h3.text#top Pro & Shop
+        h2.text#bottom Tomas Ljungqvist
+  section
+    p sida 2
+  section
+    p sida 3
+script(type='text/javascript' src='./scripts/index.js')
