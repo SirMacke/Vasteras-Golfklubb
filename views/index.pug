@@ -3,22 +3,93 @@ doctype html
 head
   meta(charset='utf-8')
   link(href='https://fonts.googleapis.com/css?family=Lato&display=swap' rel='stylesheet')
+  script(src='https://kit.fontawesome.com/c7caeb49e9.js')
   link(rel='stylesheet' type='text/css' href='./styles/index.min.css')
   title V&auml;ster&aring;s Golfklubb
 body
   nav#black-nav
   nav#nav
-    img(src='./images/loga.png' alt='Västerås Golfklubb Loga')
-    div
-      a(href='./hem') Hem
-      a(href='./klubben') Klubben
-      a(href='./medlem') Medlem
-      a(href='./gast') G&auml;st
-      a(href='./banan') Banan
-      a(href='./tavlingar') T&auml;vlingar
-      a(href='./företag') F&ouml;retag
-      a(href='./shop') Shop
-      a(href='./restaurang') Restaurang
+    a(href='./hem')
+      img(src='./images/loga.png' alt='Västerås Golfklubb Loga')
+    .menu
+      a.rubrik#hem(href='./hem') Hem
+      a.rubrik#klubben(href='./klubben') Klubben
+      .div#div-klubben
+        i.fas.fa-caret-left
+        .items
+          a(href='./klubben/kansli') Kansli
+          a(href='./klubben/organisation') Organisation
+          a(href='./klubben/historia') Historia
+          a(href='./klubben/klubbmastare') Klubbmästare
+          a(href='./klubben/vader') Väder
+          a(href='./klubben/kontakta-klubben') Kontakta klubben
+      a.rubrik#medlem(href='./medlem') Medlem
+      .div#div-medlem
+        i.fas.fa-caret-left
+        .items
+          a(href='./gast/greenfeesamarbeten') Greenfeesamarbeten
+          a(href='./gast/seniorer') Seniorer
+          a(href='./gast/damer') Damer
+          a(href='./gast/ungdomelit') Ungdom/Elit
+          a(href='./gast/medlemsformaner') Medlemsförmåner
+          a(href='./gast/hickory') Hickory
+      a.rubrik#gast(href='./gast') G&auml;st
+      .div#div-gast
+        i.fas.fa-caret-left
+        .items
+          a(href='./medlem/bokningsinformation') Bokningsinformation
+          a(href='./medlem/vader') Väder
+          a(href='./medlem/greenfee') Greenfee
+          a(href='./medlem/golfpaket') Golfpaket
+          a(href='./medlem/kontakta-klubben') Kontakta klubben
+          a(href='./medlem/introduktionskort') Introduktionskort
+      a.rubrik#banan(href='./banan') Banan
+      .div#div-banan
+        i.fas.fa-caret-left
+        .items
+          a(href='./banan/banchef-informerar') Banchef informerar
+          a(href='./banan/banguide') Banguide
+          a(href='./banan/slope') Slope
+          a(href='./banan/lokala-regler') Lokala regler
+          a(href='./banan/banrekord') Banrekord
+      a.rubrik#tavlingar(href='./tavlingar') Tävlingar
+      .div#div-tavlingar
+        i.fas.fa-caret-left
+        .items
+          a(href='./tavlingar/klubbtavlingar') Klubbtävlingar
+          a(href='./tavlingar/torsdagsliret') Torsdagsliret
+          a(href='./tavlingar/onsdagsmixen') Onsdagsmixen
+          a(href='./tavlingar/damtavlingar') Dam tävingar
+          a(href='./tavlingar/ovriga-tavlingar') Övriga tävlingar
+      a.rubrik#foretag(href='./foretag') F&ouml;retag
+      .div#div-foretag
+        i.fas.fa-caret-left
+        .items
+          a(href='./foretag/foretagsgolf') Företagsgolf
+          a(href='./foretag/prislistaservice') Prislista/Service
+          a(href='./foretag/sponsring') Sponsring
+          a(href='./foretag/konferenslokal') Konsferenslokal
+          a(href='./foretag/partners') Partners
+          a(href='./foretag/kontakta-oss') Kontakta oss
+      a.rubrik#shop(href='./shop') Shop
+      .div#div-shop
+        i.fas.fa-caret-left
+        .items
+          a(href='./shop/sortiment') Sortiment
+          a(href='./shop/range') Range
+          a(href='./shop/aktiviteter') Aktiviteter
+          a(href='./shop/grupptraning') Gruppträning
+          a(href='./shop/golflektioner') Golflektioner
+      a.rubrik#restaurang(href='./restaurang') Restaurang
+      .div#div-restaurang
+        i.fas.fa-caret-left
+        .items
+          a(href='./foretag/dagens-lunch') Dagens lunch
+          a(href='./foretag/a-la-carte') A la carte
+          a(href='./foretag/julbord') Julbord
+          a(href='./foretag/catering') Catering
+          a(href='./foretag/recensioner') Recensioner
+          a(href='./foretag/kontakt') Kontakt
   section#main
     img(src='./images/västerås golfklubb1.jpg' alt='Västerås Golfklubb')
     #namn
@@ -33,8 +104,21 @@ body
         img(src='./images/shop1.jpg' alt='Västerås golfklubb shop')
         h3.text#top Pro & Shop
         h2.text#bottom Tomas Ljungqvist
-  section
-    p sida 2
-  section
-    p sida 3
+  img#background(src='./images/västerås golfklubb1.jpg' alt='Västerås Golfklubb')
+  section#nyheter
+    h1 Nyheter
+    .nyhet
+      a(href='./nyheter') Höstuppdatering banan
+      p Golfsäsongen börjar sjunga på sista versen för i år, vi har kommit in i oktober, löven har så smått skiftat färg 🍁 och frosten har redan nu infunnit sig ett flertal gånger på mornarna. September var en torr och fin höstmånad och banan håller fortsatt riktigt fin klass. Man har inför varje höst/vinter en tanke om att allt kommer att lugna ner dig lite efter sommarens intensiva dagar. På något sätt inträffar aldrig riktigt det lugnet då det alltid finns saker som ligger på och vår ambition alltid är att förbättra och förfina vår skötselplan.
+      .datum
+        p.dag 03
+        p.monad okt
+        p.ar 2019
+    .nyhet
+      a(href='./nyheter') Höstuppdatering banan
+      p Golfsäsongen börjar sjunga på sista versen för i år, vi har kommit in i oktober, löven har så smått skiftat färg 🍁 och frosten har redan nu infunnit sig ett flertal gånger på mornarna. September var en torr och fin höstmånad och banan håller fortsatt riktigt fin klass. Man har inför varje höst/vinter en tanke om att allt kommer att lugna ner dig lite efter sommarens intensiva dagar. På något sätt inträffar aldrig riktigt det lugnet då det alltid finns saker som ligger på och vår ambition alltid är att förbättra och förfina vår skötselplan.
+      .datum
+        p.dag 03
+        p.monad okt
+        p.ar 2019
 script(type='text/javascript' src='./scripts/index.js')

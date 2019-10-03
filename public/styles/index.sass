@@ -29,15 +29,15 @@ body
       top: 50px
       transform: translateX(-50%)
 
-    div
+    .menu
       position: relative
       display: flex
       flex-direction: column
-      top: 100px
+      top: 40%
       left: 50%
-      transform: translateX(-50%)
+      transform: translate(-50%, -50%)
 
-      a
+      .rubrik
         color: white
         text-decoration: none
         text-align: center
@@ -45,8 +45,115 @@ body
         padding: 10px 20px
         transition: 0.25s
 
-      a:hover
+      .rubrik:hover
         color: #B0E0E6
+
+      #klubben:hover ~ #div-klubben
+        display: block
+
+      #div-klubben:hover
+        display: block
+
+      #medlem:hover ~ #div-medlem
+        display: block
+
+      #div-medlem:hover
+        display: block
+
+      #gast:hover ~ #div-gast
+        display: block
+
+      #div-gast:hover
+        display: block
+
+      #banan:hover ~ #div-banan
+        display: block
+
+      #div-banan:hover
+        display: block
+
+      #tavlingar:hover ~ #div-tavlingar
+        display: block
+
+      #div-tavlingar:hover
+        display: block
+
+      #foretag:hover ~ #div-foretag
+        display: block
+
+      #div-foretag:hover
+        display: block
+
+      #shop:hover ~ #div-shop
+        display: block
+
+      #div-shop:hover
+        display: block
+
+      #restaurang:hover ~ #div-restaurang
+        display: block
+
+      #div-restaurang:hover
+        display: block
+
+      .div
+        display: none
+        position: absolute
+        left: 100%
+        width: 200px
+        height: 295px
+        z-index: 3
+        transition: 0.25s
+
+        i
+          position: absolute
+          left: 12.5px
+          top: 12.5px
+          font-size: 3em
+          color: black
+
+        .items
+          position: absolute
+          width: 175px
+          left: 25px
+          display: flex
+          flex-direction: column
+          padding: 15px 25px 15px 0px
+          background-color: black
+          border-radius: 10px
+
+          a
+            display: relative
+            text-decoration: none
+            padding: 12.5px 0px 12.5px 25px
+            color: white
+
+          a:hover
+            color: #B0E0E6
+
+      #div-klubben
+        top: 37.5px
+
+      #div-medlem
+        top: 85px
+
+      #div-gast
+        top: 132.5px
+
+      #div-banan
+        top: 180px
+
+      #div-tavlingar
+        top: 227.5px
+
+      #div-foretag
+        top: 275px
+
+      #div-shop
+        top: 322.5px
+
+      #div-restaurang
+        top: 370px
 
 
   section
@@ -66,7 +173,7 @@ body
       position: absolute
       width: auto
       height: auto
-      left: 50%
+      left: 55%
       top: 50%
       transform: translate(-50%, -50%)
 
@@ -85,38 +192,124 @@ body
     #aktuellt
       position: absolute
       display: flex
-      right: 2.5%
+      right: 50px
       bottom: 5%
       width: auto
       height: auto
 
       .info
+        position: relative
         width: 275px
         height: 175px
         margin: 0px 25px
         box-shadow: 0px 0px 20px black
         text-decoration: none
+        transition: 0.25s
+
+        img:hover
+          width: 110%
+          height: 110%
+
+        img:hover ~ .text
+          padding-right: 15px
+          color: #B0E0E6
+
+        img:hover ~ #top
+          font-size: 1.6em
+
+        img:hover ~ #bottom
+          font-size: 1.85em
 
         img
+          position: absolute
+          left: 50%
+          top: 50%
+          transform: translate(-50%, -50%)
           width: 100%
           height: 100%
           object-fit: cover
           border-radius: 5px
+          transition: 0.25s
 
         .text
           position: relative
+          right: 0
           width: auto
           height: auto
           text-align: right
           padding-right: 20px
-          color: #B0E0E6
           text-shadow: 0px 0px 10px black
+          transition: 0.25s
+          color: white
 
         #top
-          bottom: 65%
+          bottom: -35%
           font-size: 1.5em
           font-weight: 300
 
         #bottom
-          bottom: 75%
+          bottom: -25%
           font-size: 1.75em
+
+
+  #background
+    position: absolute
+    top: 100vh
+    height: 200vh
+    object-fit: cover
+    filter: blur(5px)
+
+  #nyheter
+    width: 55vw
+    background-color: white
+    left: 22.5%
+    color: black
+
+    h1
+      position: relative
+      top: 50px
+      left: 50px
+      font-size: 4em
+      color: #B0E0E6
+      margin: 0px
+      margin-bottom: 100px
+
+    .nyhet
+      position: relative
+      width: 100%
+      height: auto
+      margin-bottom: 25px
+
+      a
+        font-size: 1.6em
+        color: black
+        margin-left: 25px
+
+      p
+        font-size: 1.1em
+        width: 70%
+        margin-left: 25px
+
+      .datum
+        display: flex
+        position: relative
+        width: 200px
+        height: 50px
+        margin-left: 25px
+        background-color: #B0E0E6
+
+        p
+          position: absolute
+          margin: 0
+          text-align: center
+          top: 50%
+          transform: translate(-50%, -50%)
+
+        .dag
+          left: 45px
+
+        .monad
+          left: 95px
+
+        .ar
+          left: 150px
