@@ -1,0 +1,205 @@
+//output:index.html, pretty: true
+doctype html
+head
+	meta(charset='utf-8')
+	link(href='https://fonts.googleapis.com/css?family=Lato&display=swap' rel='stylesheet')
+	script(src='https://kit.fontawesome.com/c7caeb49e9.js')
+	link(rel='stylesheet' type='text/css' href='./styles/index.min.css')
+	title V&auml;ster&aring;s Golfklubb
+body
+	nav#svart-nav
+	nav#nav
+		a(href='./hem')
+			img(src='./images/loga.png' alt='Västerås Golfklubb Loga')
+		.menu
+			a.rubrik#hem(href='./hem') Hem
+			a.rubrik#klubben(href='./klubben') Klubben
+			.div#div-klubben
+				i.fas.fa-caret-left
+				.items
+					a(href='./klubben/kansli') Kansli
+					a(href='./klubben/organisation') Organisation
+					a(href='./klubben/historia') Historia
+					a(href='./klubben/klubbmastare') Klubbmästare
+					a(href='./klubben/vader') Väder
+					a(href='./klubben/kontakta-klubben') Kontakta klubben
+			a.rubrik#medlem(href='./medlem') Medlem
+			.div#div-medlem
+				i.fas.fa-caret-left
+				.items
+					a(href='./gast/greenfeesamarbeten') Greenfeesamarbeten
+					a(href='./gast/seniorer') Seniorer
+					a(href='./gast/damer') Damer
+					a(href='./gast/ungdomelit') Ungdom/Elit
+					a(href='./gast/medlemsformaner') Medlemsförmåner
+					a(href='./gast/hickory') Hickory
+			a.rubrik#gast(href='./gast') G&auml;st
+			.div#div-gast
+				i.fas.fa-caret-left
+				.items
+					a(href='./medlem/bokningsinformation') Bokningsinformation
+					a(href='./medlem/vader') Väder
+					a(href='./medlem/greenfee') Greenfee
+					a(href='./medlem/golfpaket') Golfpaket
+					a(href='./medlem/kontakta-klubben') Kontakta klubben
+					a(href='./medlem/introduktionskort') Introduktionskort
+			a.rubrik#banan(href='./banan') Banan
+			.div#div-banan
+				i.fas.fa-caret-left
+				.items
+					a(href='./banan/banchef-informerar') Banchef informerar
+					a(href='./banan/banguide') Banguide
+					a(href='./banan/slope') Slope
+					a(href='./banan/lokala-regler') Lokala regler
+					a(href='./banan/banrekord') Banrekord
+			a.rubrik#tavlingar(href='./tavlingar') Tävlingar
+			.div#div-tavlingar
+				i.fas.fa-caret-left
+				.items
+					a(href='./tavlingar/klubbtavlingar') Klubbtävlingar
+					a(href='./tavlingar/torsdagsliret') Torsdagsliret
+					a(href='./tavlingar/onsdagsmixen') Onsdagsmixen
+					a(href='./tavlingar/damtavlingar') Dam tävingar
+					a(href='./tavlingar/ovriga-tavlingar') Övriga tävlingar
+			a.rubrik#foretag(href='./foretag') F&ouml;retag
+			.div#div-foretag
+				i.fas.fa-caret-left
+				.items
+					a(href='./foretag/foretagsgolf') Företagsgolf
+					a(href='./foretag/prislistaservice') Prislista/Service
+					a(href='./foretag/sponsring') Sponsring
+					a(href='./foretag/konferenslokal') Konsferenslokal
+					a(href='./foretag/partners') Partners
+					a(href='./foretag/kontakta-oss') Kontakta oss
+			a.rubrik#shop(href='./shop') Shop
+			.div#div-shop
+				i.fas.fa-caret-left
+				.items
+					a(href='./shop/sortiment') Sortiment
+					a(href='./shop/range') Range
+					a(href='./shop/aktiviteter') Aktiviteter
+					a(href='./shop/grupptraning') Gruppträning
+					a(href='./shop/golflektioner') Golflektioner
+			a.rubrik#restaurang(href='./restaurang') Restaurang
+			.div#div-restaurang
+				i.fas.fa-caret-left
+				.items
+					a(href='./foretag/dagens-lunch') Dagens lunch
+					a(href='./foretag/a-la-carte') A la carte
+					a(href='./foretag/julbord') Julbord
+					a(href='./foretag/catering') Catering
+					a(href='./foretag/recensioner') Recensioner
+					a(href='./foretag/kontakt') Kontakt
+	section#main
+		img(src='./images/västerås golfklubb1.jpg' alt='Västerås Golfklubb')
+		a#login(href='./login') Logga in...
+		#namn
+			h1#vasteras Västerås
+			h1#golfklubb Golfklubb
+		#aktuellt
+			a.info(href='./gast/golfpaket')
+				img(src='./images/golfpaket.jpg' alt="Västerås golfklubb")
+				h3.text#top Boka
+				h2.text#bottom Golfpaket
+			a.info(href='./shop')
+				img(src='./images/shop1.jpg' alt='Västerås golfklubb shop')
+				h3.text#top Pro & Shop
+				h2.text#bottom Tomas Ljungqvist
+	img#background(src='./images/västerås golfklubb1.jpg' alt='Västerås Golfklubb')
+	section#nyheter
+		h1 Nyheter
+		.nyhet
+			a(href='./nyheter') Höstuppdatering banan
+			p Golfsäsongen börjar sjunga på sista versen för i år, vi har kommit in i oktober, löven har så smått skiftat färg 🍁 och frosten har redan nu infunnit sig ett flertal gånger på mornarna. September var en torr och fin höstmånad och banan håller fortsatt riktigt fin klass. Man har inför varje höst/vinter en tanke om att allt kommer att lugna ner dig lite efter sommarens intensiva dagar. På något sätt inträffar aldrig riktigt det lugnet då det alltid finns saker som ligger på och vår ambition alltid är att förbättra och förfina vår skötselplan.
+			.datum
+				p.dag 03
+				p.monad okt
+				p.ar 2019
+		.nyhet
+			a(href='./nyheter') Inspirationskväll med Västerås Golfklubb och Nordic Wellness
+			p Nordic Wellness hälsar alla medlemmar på Västerås Golfklubb varmt välkomna att träna tillsammans och hitta inspiration inför vinterns stärkande fysträning. De har valt ut ett antal pass de tror att ni kommer att tycka om, dessutom har de laddat upp med personliga tränare, massör med fokus på de besvär vi golfare kan få i rörelseapparaten, fystester, m.m
+			.datum
+				p.dag 30
+				p.monad sep
+				p.ar 2019
+		.nyhet
+			a(href='./nyheter') Damernas säsongsavslutning 2019
+			p Säsongsavslutning med ett 40-tal damer under glatt surr på klubben på måndagskvällen. God mat och diverse prisutdelningar under kvällen. Säsongen utvärderades och deltagarna lämnade synpunkter inför nästa år. Till kaffet blev det tårta för att fira två serievinster, D70 samt Damer Vardag. Idag spelas Damer Helg, på hemmabanan, som blivit uppskjuten pga oväder. Håll tummarna för att vi kan avancera till första plats och ta storslam i år.
+			.datum
+				p.dag 17
+				p.monad sep
+				p.ar 2019
+	aside#svart-aside
+	aside#kalender
+		h1 Kalender
+		div
+			.handelse
+				h3 Tävling: Shop- & restaurangscramble
+				.datum
+					p Lördag 05/10
+					p.mellanrum |
+					a(href='./evenemang') Läs mer
+			.handelse
+				h3 Tävling: Onsdagsmixen kl.9-12
+				.datum
+					p Onsdag 09/10
+					p.mellanrum |
+					a(href='./evenemang') Läs mer
+			.handelse
+				h3 Tävling: Hösttouren klass A
+				.datum
+					p Torsdag 10/10
+					p.mellanrum |
+					a(href='./evenemang') Läs mer
+			.handelse
+				h3 Seniorkommitté Höstavslutning
+				.datum
+					p Torsdag 10/10
+					p.mellanrum |
+					a(href='./evenemang') Läs mer
+			.handelse
+				h3 Tävling: Tarzan trophy
+				.datum
+					p Lördag 12/10
+					p.mellanrum |
+					a(href='./evenemang') Läs mer
+		h1#lunch Dagens lunch
+			div
+				p Ostpanerad kycklingfilé, tomatsås, salviarostad potatis
+				p Svamprisotto, rotfruktschips, persilja, grana padano
+				p Pasta med bacon, grädde, äggula, svartpeppar
+				p Sallad med pulled pork, rostad lök, rödkål, vitlöksdressing
+	section#brev
+		h1 Prenumerera på Västerås Golfklubb's nyhetsbrev
+		form
+			i.far.fa-envelope
+			input(type='text' placeholder='Din E-postadress...')
+			button(type='submit') Skicka
+	section#sociala-medier
+		h1 Våra sociala medier
+		div
+			a(href='https://www.facebook.com/vasterasgolfklubb1931' target='_blank')
+				i.fab.fa-facebook
+			a(href='https://www.instagram.com/vasterasgk/' target='_blank')
+				i.fab.fa-instagram
+			a(href='https://twitter.com/VasterasGolf' target='_blank')
+				i.fab.fa-twitter
+			a(href='https://www.youtube.com/user/VasterasGolfklubb' target='_blank')
+				i.fab.fa-youtube
+	footer
+		.info
+			p Västerås Golfklubb
+			p Bjärby 724 83 Västerås
+			p Tel: 021 - 448 47 00
+			p E-post: info@vasterasgk.se
+		.lankar
+			a(href='./hem') Hem
+			a(href='./klubben') Klubben
+			a(href='./medlem') Medlem
+			a(href='./gast') Gäst
+			a(href='./banan') Banan
+			a(href='./tavlingar') Tävlingar
+			a(href='./foretag') Företag
+			a(href='./shop') Shop
+			a(href='./restaurang') Restaurang
+script(type='text/javascript' src='./scripts/index.js')

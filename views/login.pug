@@ -1,0 +1,23 @@
+//output:login.html, pretty: true
+doctype html
+head
+	meta(charset='utf-8')
+	link(href='https://fonts.googleapis.com/css?family=Lato&display=swap' rel='stylesheet')
+	script(src='https://kit.fontawesome.com/c7caeb49e9.js')
+	link(rel='stylesheet' type='text/css' href='./styles/login.min.css')
+	title Västerås Golfklubb - Login
+body
+	img(src='./images/västerås golfklubb2.jpg' alt='Västerås Golfklubb')
+	form(method='post')
+		h1 Login
+		div
+			.icon-div
+				i.fas.fa-user
+			input(type='text' placeholder='Ditt användarnamn...' name='username')
+		div
+			.icon-div
+				i.fas.fa-lock
+			input(type='password' placeholder='Ditt lösenord...' name='password')
+		div
+			button#login(type='submit') Logga in!
+script(type='text/javascript' src='./scripts/login.js')
