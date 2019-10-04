@@ -8,3 +8,5 @@ var img = document.getElementById('background');
 
 svartAside.style.height = nyheter + brev + socialaMedier + footer + 'px';
 img.style.height = nyheter + brev + socialaMedier + footer + 'px';
+
+console.log('test')

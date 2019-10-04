@@ -1,5 +1,7 @@
 const express = require('express');
 const hem = require('../routes/hem');
+const login = require('../routes/login');
+const admin = require('../routes/admin');
 const klubben = require('../routes/klubben');
 const medlem = require('../routes/medlem');
 const gast = require('../routes/gast');
@@ -17,12 +19,14 @@ module.exports = function(app) {
   app.use(express.static('public'));
   app.use('/', hem);
   app.use('/hem', hem);
-  app.use('/hem', klubben);
-  app.use('/hem', medlem);
-  app.use('/hem', gast);
-  app.use('/hem', banan);
-  app.use('/hem', tavlingar);
-  app.use('/hem', foretag);
-  app.use('/hem', shop);
-  app.use('/hem', restaurang);
+  app.use('/login', login);
+  app.use('/admin', admin);
+  app.use('/klubben', klubben);
+  app.use('/medlem', medlem);
+  app.use('/gast', gast);
+  app.use('/banan', banan);
+  app.use('/tavlingar', tavlingar);
+  app.use('/foretag', foretag);
+  app.use('/shop', shop);
+  app.use('/restaurang', restaurang);
 }

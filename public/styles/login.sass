@@ -1,0 +1,98 @@
+body
+  font-family: 'Lato', sans-serif
+  margin: 0
+  color: white
+  overflow-y: hidden
+  overflow-x: hidden
+
+  img
+    width: 100vw
+    height: 100vh
+    object-fit: cover
+    margin-bottom: -5px
+
+  form
+    position: absolute
+    width: 500px
+    height: auto
+    left: 50%
+    top: 45%
+    transform: translate(-50%, -50%)
+
+    @media (max-aspect-ratio: 2/3)
+      top: 55%
+
+    @media (max-aspect-ratio: 1/2)
+      transform: scale(1.5)
+      left: 25%
+      top: 50%
+
+    h1
+      position: relative
+      font-family: 'Russo One', sans-serif
+      font-size: 6em
+      text-align: center
+      margin-bottom: 50px
+      text-shadow: 0px 0px 100px black
+
+    div
+      position: relative
+      width: 100%
+      height: 100px
+
+      .icon-div
+        position: relative
+        width: 20%
+        height: 73px
+        left: 0%
+        top: 50%
+        transform: translateY(-50%)
+        background: dimgrey
+        border-radius: 5px 0px 0px 5px
+        box-shadow: 0px 0px 250px black
+
+        i
+          position: absolute
+          left: 50%
+          top: 50%
+          transform: translate(-50%, -50%)
+          font-size: 1.25em
+          color: white
+
+      input
+        position: absolute
+        width: 375px
+        height: 71px
+        top: 12px
+        left: 20%
+        border: none
+        padding-left: 25px
+        font-size: 1.25em
+        border-radius: 0px 5px 5px 0px
+        margin-top: 1px
+
+      input:focus
+        outline: none
+
+      #login
+        position: relative
+        height: 70px
+        width: 225px
+        top: 75px
+        left: 50%
+        transform: translate(-50%, -50%)
+        text-decoration: none
+        color: white
+        border: 2px solid white
+        font-size: 1.6em
+        background: none
+        cursor: pointer
+        text-shadow: 0px 0px 5px black
+        box-shadow: 0px 0px 250px black
+        transition: 0.25s
+
+      #login:hover
+        font-size: 1.7em
+
+      #login:active
+        font-size: 1.4em

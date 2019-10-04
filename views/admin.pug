@@ -1,11 +1,11 @@
-//output:index.html, pretty: true
+//output:admin.html, pretty: true
 doctype html
 head
 	meta(charset='utf-8')
 	link(href='https://fonts.googleapis.com/css?family=Lato&display=swap' rel='stylesheet')
 	script(src='https://kit.fontawesome.com/c7caeb49e9.js')
-	link(rel='stylesheet' type='text/css' href='./styles/index.min.css')
-	title V&auml;ster&aring;s Golfklubb
+	link(rel='stylesheet' type='text/css' href='./styles/admin.min.css')
+	title Västerås Golfklubb - Admin
 body
 	nav#svart-nav
 	nav#nav
@@ -92,7 +92,7 @@ body
 					a(href='./foretag/kontakt') Kontakt
 	section#main
 		img(src='./images/västerås golfklubb1.jpg' alt='Västerås Golfklubb')
-		a#login(href='./login') Logga in...
+		p#anvandare Admin
 		#namn
 			h1#vasteras Västerås
 			h1#golfklubb Golfklubb
@@ -109,58 +109,52 @@ body
 	section#nyheter
 		h1 Nyheter
 		.nyhet
-			a(href='./nyheter') Höstuppdatering banan
-			p Golfsäsongen börjar sjunga på sista versen för i år, vi har kommit in i oktober, löven har så smått skiftat färg 🍁 och frosten har redan nu infunnit sig ett flertal gånger på mornarna. September var en torr och fin höstmånad och banan håller fortsatt riktigt fin klass. Man har inför varje höst/vinter en tanke om att allt kommer att lugna ner dig lite efter sommarens intensiva dagar. På något sätt inträffar aldrig riktigt det lugnet då det alltid finns saker som ligger på och vår ambition alltid är att förbättra och förfina vår skötselplan.
+			input(type='text' value='Höstuppdatering banan')
+			textarea Golfsäsongen börjar sjunga på sista versen för i år, vi har kommit in i oktober, löven har så smått skiftat färg 🍁 och frosten har redan nu infunnit sig ett flertal gånger på mornarna. September var en torr och fin höstmånad och banan håller fortsatt riktigt fin klass. Man har inför varje höst/vinter en tanke om att allt kommer att lugna ner dig lite efter sommarens intensiva dagar. På något sätt inträffar aldrig riktigt det lugnet då det alltid finns saker som ligger på och vår ambition alltid är att förbättra och förfina vår skötselplan.
 			.datum
-				p.dag 03
-				p.monad okt
-				p.ar 2019
+				input(type='date' value='2019-09-03')
 		.nyhet
-			a(href='./nyheter') Inspirationskväll med Västerås Golfklubb och Nordic Wellness
-			p Nordic Wellness hälsar alla medlemmar på Västerås Golfklubb varmt välkomna att träna tillsammans och hitta inspiration inför vinterns stärkande fysträning. De har valt ut ett antal pass de tror att ni kommer att tycka om, dessutom har de laddat upp med personliga tränare, massör med fokus på de besvär vi golfare kan få i rörelseapparaten, fystester, m.m
+			input(type='text' value='Inspirationskväll med Västerås Golfklubb och Nordic Wellness')
+			textarea Nordic Wellness hälsar alla medlemmar på Västerås Golfklubb varmt välkomna att träna tillsammans och hitta inspiration inför vinterns stärkande fysträning. De har valt ut ett antal pass de tror att ni kommer att tycka om, dessutom har de laddat upp med personliga tränare, massör med fokus på de besvär vi golfare kan få i rörelseapparaten, fystester, m.m
 			.datum
-				p.dag 30
-				p.monad sep
-				p.ar 2019
+				input(type='date' value='2019-08-30')
 		.nyhet
-			a(href='./nyheter') Damernas säsongsavslutning 2019
-			p Säsongsavslutning med ett 40-tal damer under glatt surr på klubben på måndagskvällen. God mat och diverse prisutdelningar under kvällen. Säsongen utvärderades och deltagarna lämnade synpunkter inför nästa år. Till kaffet blev det tårta för att fira två serievinster, D70 samt Damer Vardag. Idag spelas Damer Helg, på hemmabanan, som blivit uppskjuten pga oväder. Håll tummarna för att vi kan avancera till första plats och ta storslam i år.
+			input(type='text' value='Damernas säsongsavslutning 2019')
+			textarea Säsongsavslutning med ett 40-tal damer under glatt surr på klubben på måndagskvällen. God mat och diverse prisutdelningar under kvällen. Säsongen utvärderades och deltagarna lämnade synpunkter inför nästa år. Till kaffet blev det tårta för att fira två serievinster, D70 samt Damer Vardag. Idag spelas Damer Helg, på hemmabanan, som blivit uppskjuten pga oväder. Håll tummarna för att vi kan avancera till första plats och ta storslam i år.
 			.datum
-				p.dag 17
-				p.monad sep
-				p.ar 2019
+				input(type='date' value='2019-08-17')
 	aside#svart-aside
 	aside#kalender
 		h1 Kalender
 		div
 			.handelse
-				h3 Tävling: Shop- & restaurangscramble
+				input.top-input(type='text' value='Tävling: Shop- & restaurangscramble')
 				.datum
-					p Lördag 05/10
+					input(type='text' value='Lördag 05/10')
 					p.mellanrum |
 					a(href='./evenemang') Läs mer
 			.handelse
-				h3 Tävling: Onsdagsmixen kl.9-12
+				input.top-input(type='text' value='Tävling: Onsdagsmixen kl.9-12')
 				.datum
-					p Onsdag 09/10
+					input(type='text' value='Onsdag 09/10')
 					p.mellanrum |
 					a(href='./evenemang') Läs mer
 			.handelse
-				h3 Tävling: Hösttouren klass A
+				input.top-input(type='text' value='Tävling: Hösttouren klass A')
 				.datum
-					p Torsdag 10/10
+					input(type='text' value='Torsdag 10/10')
 					p.mellanrum |
 					a(href='./evenemang') Läs mer
 			.handelse
-				h3 Seniorkommitté Höstavslutning
+				input.top-input(type='text' value='Seniorkommitté Höstavslutning')
 				.datum
-					p Torsdag 10/10
+					input(type='text' value='Torsdag 10/10')
 					p.mellanrum |
 					a(href='./evenemang') Läs mer
 			.handelse
-				h3 Tävling: Tarzan trophy
+				input.top-input(type='text' value='Tävling: Tarzan trophy')
 				.datum
-					p Lördag 12/10
+					input(type='text' value='Lördag 12/10')
 					p.mellanrum |
 					a(href='./evenemang') Läs mer
 		h1#lunch Dagens lunch

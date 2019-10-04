@@ -62,3 +62,77 @@
 {"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T06:19:46.190Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T11:07:15.537Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T11:07:16.561Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:23:23.758Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:23:25.773Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:48:21.101Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:48:23.115Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:49:57.558Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:49:59.573Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:57:54.824Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:57:56.838Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:58:12.927Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:58:14.942Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:58:25.978Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:58:27.991Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:58:37.966Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:58:39.980Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T16:59:07.613Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T16:59:09.627Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T18:39:25.305Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T18:39:27.322Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T18:40:38.399Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T18:40:40.416Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T18:40:58.017Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T18:41:00.034Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T18:41:53.685Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T18:41:55.702Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T18:55:40.684Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T18:55:42.699Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T19:01:21.055Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T19:01:23.069Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T19:01:42.514Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T19:01:44.528Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T19:09:37.303Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T19:09:39.318Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T19:09:52.673Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T19:09:54.685Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T19:11:02.789Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T19:11:04.806Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-03T19:11:46.550Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-03T19:11:48.571Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:13:54.579Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:13:55.609Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:38:06.237Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:38:07.261Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:38:25.671Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:38:26.708Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:38:31.072Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:38:32.100Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:38:42.128Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:38:43.144Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:39:40.090Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:39:41.116Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:41:02.527Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:41:03.618Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:41:10.748Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:41:11.924Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:41:22.738Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:41:24.159Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:42:21.609Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:42:22.988Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:42:52.468Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:42:53.509Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:43:14.297Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:43:15.324Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:43:55.262Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:43:56.308Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:44:02.559Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:44:03.607Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T09:44:53.282Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T09:44:54.316Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T11:02:45.054Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T11:02:46.097Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T11:02:48.428Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T11:02:49.466Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-10-04T11:05:25.057Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vasteras-golfklubb...","timestamp":"2019-10-04T11:05:26.097Z"}
